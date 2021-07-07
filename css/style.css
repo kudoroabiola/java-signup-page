@@ -1,0 +1,126 @@
+body{
+    background-image: url(../images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    color: white;
+    font-family:'Poppins', sans-serif;
+}
+
+small{
+    visibility: hidden;
+    color: black;
+    position: absolute;
+    left: 0;
+}
+
+.form-field.error small {
+    visibility: visible;
+    color: #e74c3c;
+}
+
+i.fa{
+    visibility: hidden;
+    color: black;
+    position: absolute;
+    top: 15px;
+    right: 50px;
+}
+
+.form-field.success i.fa-check-circle{
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-field.error i.fa-exclamation-circle{
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.left-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.SUBtext{
+    font-size: 55px;
+    width: 56%;
+    color: white;
+    margin: 20% 0% 0% 15%;
+}
+
+.subtext{
+    width: 54%;
+    font-size: 20px;
+    color: white;
+    margin-left: 15%;
+}
+
+.description{
+    color: hsl(246, 25%, 77%);
+    font-size: 10px;
+    margin-left: 25px;
+}
+
+.right-box{
+    margin-top: 9%;
+    margin-right: 29%;
+}
+
+.container{
+    padding-top: 20%;
+    padding-left: 21%;
+    padding-bottom: 12%;
+    width: 213%;
+    margin-right: -20%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.form-field{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.form-field input{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 85%;
+}
+
+.form-field.success input{
+    border-color: #2ecc71;
+}
+
+.form-field.error input{
+    border-color: #e74c3c;
+}
+
+.btn1{
+    background-color: hsl(248, 32%, 49%);
+    width: 234%;
+    color: white;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-shadow: 1px 6px 3px 1px #0000008c;
+}
+
+.btn2{
+    background-color: hsl(154, 59%, 51%) ;
+    width: 92%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+}
+
+.spn{
+    color:hsl(0, 100%, 74%) ;
+    text-decoration: none;
+}
